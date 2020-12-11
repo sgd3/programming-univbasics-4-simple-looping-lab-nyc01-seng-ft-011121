@@ -5,14 +5,10 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(message, number)
-  message = "Hello World."
-  number = 5
-  counter = 0
-  until counter == 5
-    puts message
-    counter += 1
-  end
+def repeat(text, n=2)
+  text = "Hello world"
+  print [text] * 2
+end
 
 
 def output_array
