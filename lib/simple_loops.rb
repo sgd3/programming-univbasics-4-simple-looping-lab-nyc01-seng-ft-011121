@@ -5,9 +5,9 @@ def loop_message_five_times(message)
   end
 end
 
-def repeat(text, n=2)
-  text = "Hello world"
-  print [text] * 2
+def loop_message_n_times(message, n=5)
+5.times do
+  puts "Hello Moon"
 end
 
 
