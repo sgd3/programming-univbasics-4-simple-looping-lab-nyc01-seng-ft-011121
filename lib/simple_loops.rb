@@ -16,3 +16,4 @@ def output_array
   puts array
   end
 end
+end
