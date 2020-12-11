@@ -14,6 +14,4 @@ end
 def output_array
   array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
   puts array
-  end
-end
 end
